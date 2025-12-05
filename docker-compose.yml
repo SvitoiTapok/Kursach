@@ -19,7 +19,7 @@ services:
       - app-network
   pgadmin:
     image: dpage/pgadmin4:latest
-    container_name: pgadminIS
+    container_name: pgadminKURS
     environment:
       PGADMIN_DEFAULT_EMAIL: "ajsoi@gmail.com"
       PGADMIN_DEFAULT_PASSWORD: "1111"
